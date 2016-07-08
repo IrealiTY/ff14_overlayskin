@@ -423,7 +423,7 @@ var ____Class3=React.Component;for(var ____Class3____Key in ____Class3){if(____C
                         combatant.Job = "Bishop";
                     }
                     else if (combatant.name.indexOf("Limit Break") === 0) {
-                        combatant.Job = "Limit Break";
+                        combatant.Job = "LimitBreak";
                     }
                     else if (combatant.name.match(/[^a-zA-Z()'\s]/)) {
                         combatant.Job = "Chocobo";
@@ -480,7 +480,7 @@ var ____Class3=React.Component;for(var ____Class3____Key in ____Class3){if(____C
                             total: combatant.damagetaken,
                             totalFormatted: checkThousand(combatant.damagetaken),
                             perSecond: 'Heal Received '+checkThousand(combatant.healstaken),
-                            percentage: combatant.deaths +"time of death",                            
+                            percentage: combatant.deaths +" deaths",                            
 /*                          perSecond: combatant.ParryPct,
                             percentage: combatant.BlockPct */
                             additional1: 1,
@@ -689,7 +689,7 @@ DamageMeter.defaultProps = {
     chartViews: [
         '1. Total Damage',
         '2. Total Healing',
-        '3. Damage received',
+        '3. Damage Received',
         '4. Acc & Crit'
     ],
     parseData: {},
