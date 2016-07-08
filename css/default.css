@@ -7,11 +7,11 @@ html {
     background-repeat: no-repeat;
 }
 
-.resizable {
-    background-image: url(../images/handle1.png);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-}
+// .resizable {
+//     background-image: url(../images/handle1.png);
+//     background-position: bottom right;
+//     background-repeat: no-repeat;
+// }
 
 #realcont
 {

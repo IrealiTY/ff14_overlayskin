@@ -176,7 +176,7 @@ var ____Class2=React.Component;for(var ____Class2____Key in ____Class2){if(____C
 
                             React.createElement("div", {className: ("dropdown-menu encounters-list-dropdown " + (this.state.showEncountersList ? '' : 'hidden'))}, 
                                 React.createElement("div", {onClick: this.props.onSelectEncounter.bind(this, null)}, 
-                                    "마지막 전투"
+                                    "Last encounter"
                                 ), 
 
                                 EncountersArray.map(function(encounter, i) {
@@ -207,13 +207,13 @@ var ____Class2=React.Component;for(var ____Class2____Key in ____Class2){if(____C
                 React.createElement("div", {className: "extra-details"}, 
                     React.createElement("div", {className: "extra-row damage"}, 
                         React.createElement("div", {className: "cell"}, 
-                            React.createElement("span", {className: "label ff-header"}, "총데미지 :"), 
+                            React.createElement("span", {className: "label ff-header"}, "Total Damage:"), 
                             React.createElement("span", {className: "value ff-text"}, 
                                 checkThousand(encounter.damage)
                             )
                         ), 
                         React.createElement("div", {className: "cell"}, 
-                            React.createElement("span", {className: "label ff-header"}, "RDPS :"), 
+                            React.createElement("span", {className: "label ff-header"}, "RDPS:"), 
                             React.createElement("span", {className: "value ff-text"}, 
                                 checkThousand(encounter.encdps)
                             )
@@ -225,7 +225,7 @@ var ____Class2=React.Component;for(var ____Class2____Key in ____Class2){if(____C
                             )
                         ), */
                         React.createElement("div", {className: "cell"}, 
-                            React.createElement("span", {className: "label ff-header"}, "빗맞음 :"), 
+                            React.createElement("span", {className: "label ff-header"}, "Misses:"), 
                             React.createElement("span", {className: "value ff-text"}, 
                                 encounter['misses']
                             )
@@ -239,13 +239,13 @@ var ____Class2=React.Component;for(var ____Class2____Key in ____Class2){if(____C
                     ), 
                     React.createElement("div", {className: "extra-row healing"}, 
                         React.createElement("div", {className: "cell"}, 
-                            React.createElement("span", {className: "label ff-header"}, "총힐량 :"), 
+                            React.createElement("span", {className: "label ff-header"}, "Total Heal:"), 
                             React.createElement("span", {className: "value ff-text"}, 
                                 checkThousand(encounter.healed)
                             )
                         ), 
                         React.createElement("div", {className: "cell"}, 
-                            React.createElement("span", {className: "label ff-header"}, "RHPS :"), 
+                            React.createElement("span", {className: "label ff-header"}, "RHPS: "), 
                             React.createElement("span", {className: "value ff-text"}, 
                                 checkThousand(encounter.enchps)
                             )
@@ -307,126 +307,126 @@ var ____Class3=React.Component;for(var ____Class3____Key in ____Class3){if(____C
             
 			if (combatant.Job =="Acn")
 			{   
-				combatant.Job = '비술사';
+				combatant.Job = 'ACN';
 			}
 			else if (combatant.Job =="Arc")
 			{   
-				combatant.Job = '궁술사';
+				combatant.Job = 'ARC';
 			}			
 			else if (combatant.Job =="Blm")
 			{   
-				combatant.Job = '흑마도사';
+				combatant.Job = 'BLM';
 			}		
 			else if (combatant.Job =="Brd")
 			{   
-				combatant.Job = '음유시인';
+				combatant.Job = 'BRD';
 			}			
 			else if (combatant.Job =="Cnj")
 			{   
-				combatant.Job = '환술사';
+				combatant.Job = 'CNJ';
 			}		
 			else if (combatant.Job =="Drg")
 			{   
-				combatant.Job = '용기사';
+				combatant.Job = 'DRG';
 			}				
 			else if (combatant.Job =="Gld")
 			{   
-				combatant.Job = '검술사';
+				combatant.Job = 'GLD';
 			}				
 			else if (combatant.Job =="Lnc")
 			{   
-				combatant.Job = '창술사';
+				combatant.Job = 'LNC';
 			}				
 			else if (combatant.Job =="Mnk")
 			{   
-				combatant.Job = '몽크';
+				combatant.Job = 'MNK';
 			}				
 			else if (combatant.Job =="Mrd")
 			{   
-				combatant.Job = '도끼술사';
+				combatant.Job = 'MRD';
 			}
 			else if (combatant.Job =="Nin")
 			{   
-				combatant.Job = '닌자';
+				combatant.Job = 'NIN';
 			}               
 			else if (combatant.Job =="Pgl")
 			{   
-				combatant.Job = '격투사';
+				combatant.Job = 'PGL';
 			}				
 			else if (combatant.Job =="Pld")
 			{   
-				combatant.Job = '나이트';
+				combatant.Job = 'PLD';
 			}
 			else if (combatant.Job =="Rog")
 			{   
-				combatant.Job = '쌍검사';
+				combatant.Job = 'ROG';
 			}	            
 			else if (combatant.Job =="Smn")
 			{   
-				combatant.Job = '소환사';
+				combatant.Job = 'SMN';
 			}			
 			else if (combatant.Job =="Thm")
 			{   
-				combatant.Job = '주술사';
+				combatant.Job = 'THM';
 			}			
 			else if (combatant.Job =="War")
 			{   
-				combatant.Job = '전사';
+				combatant.Job = 'WAR';
 			}			
 			else if (combatant.Job =="Whm")
 			{   
-				combatant.Job = '백마도사';
+				combatant.Job = 'WHM';
 			}			
 			else if (combatant.Job =="Sch")
 			{   
-				combatant.Job = '학자';
+				combatant.Job = 'SCH';
 			}
             else if (combatant.Job =="Drk")
 			{   
-				combatant.Job = '암흑기사';
+				combatant.Job = 'DRK';
 			}
             else if (combatant.Job =="Mch")
 			{   
-				combatant.Job = '기공사';
+				combatant.Job = 'MCH';
 			}
             else if (combatant.Job =="Ast")
 			{   
-				combatant.Job = '점성술사';
+				combatant.Job = 'AST';
 			}
 			else if (combatant.Job =="")
 			{
-                    if (combatant.name.indexOf("가루다 에기") === 0) {
-                        combatant.Job = "가루다";
+                    if (combatant.name.indexOf("Garuda-Egi") === 0) {
+                        combatant.Job = "Garuda";
                     }
-                    else if (combatant.name.indexOf("이프리트 에기") === 0) {
-                        combatant.Job = "이프리트";
+                    else if (combatant.name.indexOf("Ifrit-Egi") === 0) {
+                        combatant.Job = "Ifrit";
                     }
-                    else if (combatant.name.indexOf("타이탄 에기") === 0) {
-                        combatant.Job = "타이탄";
+                    else if (combatant.name.indexOf("Titan-Egi") === 0) {
+                        combatant.Job = "Titan";
                     }
-                    else if (combatant.name.indexOf("요정 에오스") === 0) {
-                        combatant.Job = "에오스";
+                    else if (combatant.name.indexOf("Eos") === 0) {
+                        combatant.Job = "Eos";
                     }
-                    else if (combatant.name.indexOf("요정 셀레네") === 0) {
-                        combatant.Job = "셀레네";
+                    else if (combatant.name.indexOf("Selene") === 0) {
+                        combatant.Job = "Selene";
                     }
-                    else if (combatant.name.indexOf("카벙클 에메랄드") === 0) {
-                        combatant.Job = "카벙클";
+                    else if (combatant.name.indexOf("Emerald Carbunbcle") === 0) {
+                        combatant.Job = "Carbuncle";
                     }
-                    else if (combatant.name.indexOf("카벙클 토파즈") === 0) {
-                        combatant.Job = "카벙클";
+                    else if (combatant.name.indexOf("Topaz Carbuncle") === 0) {
+                        combatant.Job = "Carbuncle";
                     }
-                    else if (combatant.name.indexOf("자동포탑 룩") === 0) {
-                        combatant.Job = "포탑";
+                    else if (combatant.name.indexOf("Rook Autoturret") === 0) {
+                        combatant.Job = "Turret";
                     }
-                    else if (combatant.name.indexOf("자동포탑 비숍") === 0) {
-                        combatant.Job = "비숍";
+                    else if (combatant.name.indexOf("Bishop Autoturret") === 0) {
+                        combatant.Job = "Bishop";
                     }
                     else if (combatant.name.indexOf("Limit Break") === 0) {
-                        combatant.Job = "리미트";
+                        combatant.Job = "Limit Break";
                     }
                     else if (combatant.name.match(/[^a-zA-Z()'\s]/)) {
-                        combatant.Job = "초코보";
+                        combatant.Job = "Chocobo";
                     }
                     else {
                         combatant.Job = "";
@@ -451,7 +451,7 @@ var ____Class3=React.Component;for(var ____Class3____Key in ____Class3){if(____C
 
             if (combatant.Job !== "") {
                 // should probably fix this
-                if (this.props.currentView === '2. 총힐량') {
+                if (this.props.currentView === '2. Total Healing') {
                     if (parseInt(combatant.healed, 10) > 0) {
                         if (!maxdps) {
                             maxdps = parseFloat(combatant.healed);
@@ -464,12 +464,12 @@ var ____Class3=React.Component;for(var ____Class3____Key in ____Class3){if(____C
                             perSecond: Math.round(combatant.enchps)+' HPS',
                             additional: '['+checkThousand(Math.round(combatant.healed*(1-getStrCuts(combatant['OverHealPct'])/100)))+']',
 							additional1: 1-(getStrCuts(combatant['OverHealPct'])/100),
-                            crithit: '해제:'+combatant.cures+', ',
+                            crithit: 'Misses:'+combatant.cures+', ',
                             percentage: combatant['healed%']
                         }
                     }
                 }
-                else if (this.props.currentView === '3. 받은데미지') {
+                else if (this.props.currentView === '3. Damage Received') {
                     if (parseInt(combatant.damagetaken, 10) > 0) {
                         if (!maxdps) {
                             maxdps = parseFloat(combatant.damagetaken);
@@ -479,15 +479,15 @@ var ____Class3=React.Component;for(var ____Class3____Key in ____Class3){if(____C
                             characterName: virtualname,
                             total: combatant.damagetaken,
                             totalFormatted: checkThousand(combatant.damagetaken),
-                            perSecond: '받은힐 '+checkThousand(combatant.healstaken),
-                            percentage: combatant.deaths +"회 사망",                            
+                            perSecond: 'Heal Received '+checkThousand(combatant.healstaken),
+                            percentage: combatant.deaths +"time of death",                            
 /*                          perSecond: combatant.ParryPct,
                             percentage: combatant.BlockPct */
                             additional1: 1,
                         }
                     }
                 }
-                else if (this.props.currentView === '1. 총딜량') {
+                else if (this.props.currentView === '1. Total Damage') {
                     if (!maxdps) {
                         maxdps = parseFloat(combatant.damage);
                     }
@@ -502,7 +502,7 @@ var ____Class3=React.Component;for(var ____Class3____Key in ____Class3){if(____C
 
                         }
 				     }
-                else if (this.props.currentView === '4. 적중&극대') {
+                else if (this.props.currentView === '4. Acc & Crit') {
                     if (!maxdps) {
                         maxdps = parseFloat(combatant.damage);
                     }
@@ -510,8 +510,8 @@ var ____Class3=React.Component;for(var ____Class3____Key in ____Class3){if(____C
                         job: combatant.Job || '',
                         characterName: virtualname,
                         total: combatant.damage,
-                        crithit: '극대 '+combatant['crithit%'],
-                        TOHIT: '명중 '+combatant.TOHIT+'%',
+                        crithit: 'Crit '+combatant['crithit%'],
+                        TOHIT: 'Acc '+combatant.TOHIT+'%',
                         additional1: 1,
                     }
                 }
@@ -687,10 +687,10 @@ var ____Class4=React.Component;for(var ____Class4____Key in ____Class4){if(____C
 //<div class="handlecont2"><div class="handlecont_in handlecont_in2">적중, 극대</div></div>
 DamageMeter.defaultProps = {
     chartViews: [
-        '1. 총딜량',
-        '2. 총힐량',
-        '3. 받은데미지',
-        '4. 적중&극대'
+        '1. Total Damage',
+        '2. Total Healing',
+        '3. Damage received',
+        '4. Acc & Crit'
     ],
     parseData: {},
     noJobColors: false
