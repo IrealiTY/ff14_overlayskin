@@ -1,14 +1,6 @@
-# ff14_overlayskin
-Translated to English
+#DO NOT USE
+Laiglinne has created a English and Japanese version of his overlay:
 
-#Preview
-###DPS Window
-![DPS Tab](http://i.imgur.com/Nb6pyCO.jpg)
+https://github.com/laiglinne-ff/ff14_overlayskin
 
-###DPS Window + more stats (small arrow)
-![DPS Tab and more](http://i.imgur.com/13CGArF.jpg)
-
-###Settings
-![Settings](http://i.imgur.com/lTEVKNj.jpg)
-
-
+Please use his version as he keeps updating it himself!
